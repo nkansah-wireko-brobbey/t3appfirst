@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('_nav.css');
+
+body {
+    @apply bg-gray-950 text-white;
+  }
+  

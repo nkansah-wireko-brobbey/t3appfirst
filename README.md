@@ -2,8 +2,8 @@
 
 ## Todo List
 
-- [ ] Make it deploy
-- [ ] Scaffold basic UI
+- [X] Make it deploy
+- [X] Scaffold basic UI
 - [ ] Implement mock data
 - [ ] Set up database - vercel postgres
 - [ ] Implement authentication
@@ -13,4 +13,3 @@
 - [ ] Delete button - server actions
 - [ ] Analytics - posthog
 - [ ] Ratelimiting - upstash
-- [ ]

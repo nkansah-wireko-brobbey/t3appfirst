@@ -1,0 +1,5 @@
+
+.top-nav{
+    /* dark blue bg text white */
+    @apply bg-gray-950 text-white px-4 py-4 flex justify-between items-center border-b border-gray-800 backdrop-blur-md;
+}
