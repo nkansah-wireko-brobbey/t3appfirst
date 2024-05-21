@@ -1,14 +1,22 @@
 import  Link  from "next/link";
+import { SignedOut, SignInButton, SignedIn, UserButton } from "@clerk/nextjs";
+
 const TopNav = () => {
   return (
     <div>
         <nav className="top-nav">
-           <Link href="" className="font-semibold">
-                    Gallery
-            </Link>
-           <Link href="" className="font-semibold">
-                    Logout
-            </Link>
+          <div>
+            Gallery
+          </div>
+          <div>
+
+           <SignedOut>
+            <SignInButton/>
+           </SignedOut>
+           <SignedIn>
+            <UserButton/>
+           </SignedIn>
+          </div>
         </nav>
     </div>
   )
